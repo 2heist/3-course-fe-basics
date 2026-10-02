@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%; 
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  margin: 0;
+  background-color: #473f3f7a;
+}
+
+.text-top {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.img-left {
+  width: 75%;
+}
+
+.text-right {
+  width: 25%;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.img-bottom {
+  width: 100%;
+}
+
+img {
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
