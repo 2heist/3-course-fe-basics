@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Лабораторна робота №2">
+  <meta name="keywords" content="HTML, lab2, Кава Е. К. ІМ-41">
+
+  <title>Кава Е. К. ІМ-41</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    table {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+
+    td {
+      border: 1px solid black;
+      padding: 10px;
+}
+
+    .row-first {
+      background-color: #278f8f;
+      color: #65278F;
+    }
+
+    
+    .row-first:hover {
+      background-color: #65278F;
+      color: #278f8f;
+    }
+
+    .row-second {
+      background-color: #f5f527;
+      color: #65278F;
+    }
+
+    .row-second:hover {
+      background-color: #65278F;
+      color: #f5f527;
+    }
+  </style>
+</head>
+<body>
+  <table> 
+    <tr class="row-first"> 
+      <td colspan="2" rowspan="2">Кава</td> 
+      <td>Едвард</td> 
+      <td>Кшиштофович</td> 
+    </tr> 
+    <tr class="row-second">  
+      <td>ІМ-41</td> 
+      <td>Лаб2</td> 
+    </tr> 
+    <tr> 
+      <td colspan="2">Вар27</td> 
+      <td></td>
+      <td rowspan="2"></td> 
+    </tr> 
+    <tr> 
+      <td></td> 
+      <td></td> 
+      <td></td> 
+    </tr> 
+</table>
+
+<div class="clock clock-position">
+  <div class="dot dot-top"></div>
+  <div class="dot dot-bottom"></div>
+  <div class="dot dot-left"></div>
+  <div class="dot dot-right"></div>
+  <div class="hand hand-vertical"></div>
+  <div class="hand hand-horizontal"></div>
+</div>
+
+<div class="clock clock-transform">
+  <div class="dot dot-top"></div>
+  <div class="dot dot-bottom"></div>
+  <div class="dot dot-left"></div>
+  <div class="dot dot-right"></div>
+  <div class="hand hand-vertical"></div>
+  <div class="hand hand-horizontal"></div>
+</div>
+</body>
+</html>
