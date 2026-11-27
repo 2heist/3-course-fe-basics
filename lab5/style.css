@@ -1,0 +1,32 @@
+body { font-family: "Times New Roman", serif; margin: 24px auto; max-width: 900px; padding: 0 16px; }
+h1 { font-size: 22px; text-align: center; }
+.task { margin-bottom: 40px; }
+.task-body { display: flex; gap: 32px; align-items: flex-start; flex-wrap: wrap; }
+.card { width: 320px; }
+#output { font-size: 14px; }
+#output h3 { margin-top: 0; }
+form h3 { text-align: center; }
+
+.field { margin-bottom: 14px; }
+.field input {
+  width: 100%; box-sizing: border-box; padding: 10px;
+  border: 1px solid #bbb; border-radius: 6px; font-size: 14px;
+}
+.field input.valid { border: 2px solid #1a9a2e; }
+.field input.invalid { border: 2px solid #d62020; background: #ffeaea; }
+.field .err { color: #d62020; font-size: 12px; min-height: 14px; }
+button[type="submit"] {
+  width: 100%; padding: 10px; border: 1px solid #bbb; border-radius: 6px;
+  background: #f1f1f4; cursor: pointer;
+}
+
+#palette {
+  display: block; width: 100%; max-width: 480px; height: 28px;
+  margin: 10px 0 16px; padding: 2px; cursor: pointer;
+}
+#grid { border-collapse: collapse; }
+#grid td {
+  width: 52px; height: 44px; text-align: center; font-weight: bold;
+  border: 1px solid #333; user-select: none;
+}
+#grid td.target { cursor: pointer; }

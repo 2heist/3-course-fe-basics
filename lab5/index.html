@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Лабораторна робота №5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Лабораторна робота №5. Події. Регулярні вирази</h1>
+
+  <section class="task">
+    <h2>Завдання 1. Форма з валідацією</h2>
+    <div class="task-body">
+      <form id="form" class="card" novalidate>
+        <h3>Форма для заповнення</h3>
+        <div id="fields"></div>
+        <button type="submit">Підтвердити</button>
+      </form>
+      <div id="output" class="card" hidden></div>
+    </div>
+  </section>
+
+  <section class="task">
+    <h2>Завдання 2. Таблиця 6×6</h2>
+    <p class="hint">Наведіть на клітинку <b id="target-num"></b> — випадковий колір, клік — колір з палітри, подвійний клік — зміна кольору рядків через один, починаючи з обраного.</p>
+    <input type="color" id="palette" value="#ff0000" title="Палітра">
+    <table id="grid"></table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
