@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+#cityLink { display: block; width: fit-content; padding: 8px; }
+#cityLink img { display: block; margin-bottom: 8px; width: 400px; max-width: 100%; }
+.buttons { margin-top: 10px; }
+button { padding: 6px 12px; margin-right: 6px; cursor: pointer; }
