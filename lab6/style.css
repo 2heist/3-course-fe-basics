@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+  color: #fff;
+}
+
+.top {
+  background: #808080;
+  text-align: center;
+  padding: 10px;
+}
+
+#download-btn {
+  background: #343a40;
+  color: #fff;
+  border: 1px solid #23272b;
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#download-btn:hover {
+  background: #23272b;
+}
+
+#download-btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+#download-btn:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+#status {
+  margin: 8px 0 0;
+  font-size: 20px;
+  min-height: 24px;
+}
+
+#status.error {
+  color: #ffd6d6;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 200px;
+  background: #343a40;
+  min-width: 0;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.card .info {
+  padding: 10px 14px 6px;
+  font-size: 13px;
+}
+
+.card p {
+  margin: 0 0 12px;
+  overflow-wrap: anywhere;
+}
